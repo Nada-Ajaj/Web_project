@@ -1,0 +1,36 @@
+body,html{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+div.offers{
+    width: 100%;
+    height: 80%;
+    position:relative;
+    top:80px;
+    justify-content: center;
+    background: url("imgs/offer.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.cont a {
+    background: #ffffff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.cont a:hover{
+    background-color: #85c1ee;
+    color: #fff;
+}

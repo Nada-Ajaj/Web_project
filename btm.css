@@ -1,0 +1,39 @@
+.boto{
+    background-color: #0652aa;
+    width: 100%;
+    height: 280px;
+    position:relative;
+    top:300px
+}
+
+div.tb{
+    position:absolute;
+    left: 100px;
+}
+div.tb  a{
+    text-decoration: none;
+    color: darkgrey;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+div.tb a:hover{
+    color: white;
+}
+
+div.tb tr{
+    height: 50px;
+}
+div.tb td {
+    width: 100px;
+}
+
+img.im{
+    width:206px;
+    height: 206;
+    position:absolute;
+    left: 600px;
+    top:50px;
+}
+
+

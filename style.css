@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Century;
+}
+.menu{
+    background-color: #0652aa;
+    width: 100%;
+    float: left;
+    height: 80px;
+    position:fixed;
+    top:0px;
+    z-index: 20;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    min-height: 200px;
+    margin-right: 30px;
+    font-size: 16px;
+    position: absolute;
+    top: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    border: 1px solid transparent;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    border: 1px white;
+    display: block;
+}
+
+.btn{
+
+    position: absolute;
+    top:10px;
+    right: 160px;
+    width: 100px;
+    height: 30px;
+    background: darkgrey;
+    border: 1px solid darkgrey;
+    margin-bottom: 3px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px ;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.menu ul li{
+    padding: 10px 18px;
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.menu ul li a:hover{
+    color:black;
+
+}
+.dropdown_menu{
+    display: none;
+}
+.menu ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top:100%;
+    background-color: darkgrey;
+    z-index: 1;
+}
+.menu ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 5px;
+}
+.menu ul li:hover .dropdown_menu ul li{
+    width: 100%;
+
+}
+
+label.logo{
+
+    color: white;
+    margin-left: 90px;
+    font-size: 35px;
+    line-height: 70px;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    right: 75px;
+    top: 7px;
+}
+
+
+.shoppingcart{
+    width:80px ;
+    hight:1190px;
+    border: none;
+    position:absolute;
+
+    margin-left:110px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+.shoppingcart a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color:white ;
+}
+div.brand1{
+    position: relative;
+    top:100px;
+    bottom: 200px;
+}
+div.brand1>div.brand{
+    positing:relative;
+    float:left;
+    margin:20px;
+    padding:10px;
+    width:150px;
+    height:150px;
+}
